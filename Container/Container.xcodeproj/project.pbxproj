@@ -14,6 +14,10 @@
 		489D11D721885398005AA609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489D11D521885398005AA609 /* LaunchScreen.storyboard */; };
 		489D11E221885398005AA609 /* ContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D11E121885398005AA609 /* ContainerTests.swift */; };
 		489D11ED21885398005AA609 /* ContainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D11EC21885398005AA609 /* ContainerUITests.swift */; };
+		489D11FC21885484005AA609 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 489D11FB21885484005AA609 /* .gitignore */; };
+		489D11FF218854CF005AA609 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D11FE218854CF005AA609 /* AccountViewController.swift */; };
+		489D120121885531005AA609 /* AccountTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D120021885531005AA609 /* AccountTableCell.swift */; };
+		489D120521885604005AA609 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489D120421885604005AA609 /* Account.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		489D11E821885398005AA609 /* ContainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		489D11EC21885398005AA609 /* ContainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerUITests.swift; sourceTree = "<group>"; };
 		489D11EE21885398005AA609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489D11FB21885484005AA609 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		489D11FE218854CF005AA609 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		489D120021885531005AA609 /* AccountTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableCell.swift; sourceTree = "<group>"; };
+		489D120421885604005AA609 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		489D11CB21885397005AA609 /* Container */ = {
 			isa = PBXGroup;
 			children = (
+				489D11FA21885484005AA609 /* ConsumerKITSubmodule */,
 				489D11CC21885397005AA609 /* AppDelegate.swift */,
 				489D11CE21885397005AA609 /* ViewController.swift */,
 				489D11D021885397005AA609 /* Main.storyboard */,
@@ -123,6 +132,25 @@
 				489D11EE21885398005AA609 /* Info.plist */,
 			);
 			path = ContainerUITests;
+			sourceTree = "<group>";
+		};
+		489D11FA21885484005AA609 /* ConsumerKITSubmodule */ = {
+			isa = PBXGroup;
+			children = (
+				489D11FD21885496005AA609 /* Account */,
+				489D11FB21885484005AA609 /* .gitignore */,
+			);
+			path = ConsumerKITSubmodule;
+			sourceTree = "<group>";
+		};
+		489D11FD21885496005AA609 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				489D11FE218854CF005AA609 /* AccountViewController.swift */,
+				489D120021885531005AA609 /* AccountTableCell.swift */,
+				489D120421885604005AA609 /* Account.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489D11FC21885484005AA609 /* .gitignore in Resources */,
 				489D11D721885398005AA609 /* LaunchScreen.storyboard in Resources */,
 				489D11D421885398005AA609 /* Assets.xcassets in Resources */,
 				489D11D221885397005AA609 /* Main.storyboard in Resources */,
@@ -256,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489D120521885604005AA609 /* Account.swift in Sources */,
 				489D11CF21885397005AA609 /* ViewController.swift in Sources */,
 				489D11CD21885397005AA609 /* AppDelegate.swift in Sources */,
+				489D120121885531005AA609 /* AccountTableCell.swift in Sources */,
+				489D11FF218854CF005AA609 /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
